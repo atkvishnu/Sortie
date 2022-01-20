@@ -61,6 +61,9 @@ export default makeStyles((theme) => ({
         // backgroundColor: "black",
         background: 'linear-gradient(45deg, #000000 30%, #434343 90%)',
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
+        backgroundAttachment: "fixed"
     },
+    sub: {
+        fontSize: "0.3em",
+    }
 }));

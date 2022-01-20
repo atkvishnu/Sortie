@@ -12,12 +12,17 @@ const Header = ({ onPlaceChanged, onLoad }) => {              // functional comp
     return (
         <AppBar position="static">
             <Toolbar className={classes.toolbar}>
-                <Typography variant="h5" className={classes.title}>
-                    Travel Advisor + Open Weather Map API
+                <Typography variant="h2" className={classes.title}>
+                    <img src="https://img.icons8.com/office/40/000000/globe-earth.png" alt="Sortie Logo" className={classes.logo}/>
+                    {" "}
+                    Sortie
+                    <sub className={classes.sub}>   Expedition</sub>
                 </Typography>
+                
+                
                 <Box display="flex">
                     <Typography variant="h6" className={classes.title}>
-                        Explore new places around the world
+                        Explore new places
                     </Typography>
                     <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
                         <div className={classes.search}>
