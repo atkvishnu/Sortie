@@ -65,5 +65,9 @@ export default makeStyles((theme) => ({
     },
     sub: {
         fontSize: "0.3em",
+        marginBottom: "15px"
+    },
+    logo: {
+        marginTop: '15px',
     }
 }));

@@ -13,13 +13,13 @@ const Header = ({ onPlaceChanged, onLoad }) => {              // functional comp
         <AppBar position="static">
             <Toolbar className={classes.toolbar}>
                 <Typography variant="h2" className={classes.title}>
-                    <img src="https://img.icons8.com/office/40/000000/globe-earth.png" alt="Sortie Logo" className={classes.logo}/>
+                    <img src="https://img.icons8.com/color/50/000000/globe--v1.png" alt="Sortie Logo" className={classes.logo} />
                     {" "}
                     Sortie
                     <sub className={classes.sub}>   Expedition</sub>
                 </Typography>
-                
-                
+
+
                 <Box display="flex">
                     <Typography variant="h6" className={classes.title}>
                         Explore new places
@@ -29,7 +29,7 @@ const Header = ({ onPlaceChanged, onLoad }) => {              // functional comp
                             <div className={classes.searchIcon}>
                                 <SearchIcon />
                             </div>
-                            <InputBase placeholder="Search ... " classes={{ root: classes.inputRoot, input: classes.inputInput }}/>
+                            <InputBase placeholder="Search ... " classes={{ root: classes.inputRoot, input: classes.inputInput }} />
                         </div>
                     </Autocomplete>
                 </Box>
