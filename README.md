@@ -2,7 +2,7 @@
 
 # Website Link: [sortie.netlify.com](https://sortie.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bb01a938-b5fe-4756-b868-4346f99b0f8e/deploy-status)](https://app.netlify.com/sites/hopeful-rosalind-740a21/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d23dfbf-8fe0-4737-a88f-44a81f8da187/deploy-status)](https://app.netlify.com/sites/sortie/deploys)
 
 ### This website can help you when:
 - you are Travelling ✈️ 
